@@ -1,0 +1,42 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 本项目：Office 临时文件 =====
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ===== 中间产物（如需重新生成，运行 python code/run_all.py）=====
+# 说明：data/processed/ 与 output/ 中的结果文件**已提交**，以保证
+# 未安装 Python 环境者也能直接查看结果，故此处不作忽略。
+# 若你希望自行重跑，可取消下面两行的注释：
+# data/processed/
+# output/
