@@ -6,6 +6,17 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Reproducible](https://img.shields.io/badge/Reproducible-Yes-orange.svg)](#六一键复现)
 
+**仓库地址**：<https://github.com/chaojimusi/digital-transformation-nlp-tfp>
+
+```bash
+git clone https://github.com/chaojimusi/digital-transformation-nlp-tfp.git
+cd digital-transformation-nlp-tfp
+pip install -r requirements.txt
+python code/run_all.py
+```
+
+> ⚠️ 本仓库为**方法教学演示**，语料由程序按显式数据生成过程（DGP）模拟，**非真实上市公司文本**。详见 [第二章数据说明](#二️-数据说明请先阅读) 与 [`docs/数据来源说明.md`](docs/数据来源说明.md)。
+
 ---
 
 ## 一、项目简介
